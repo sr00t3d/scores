@@ -52,6 +52,25 @@ chmod +x scores.sh
 
 ---
 
+## Real Output Example
+
+```text
+================================================================================================
+ scores.sh v2.0.0 | System & Apache Triage | 2026-11-24T03:24:14Z
+================================================================================================
+Load:    2.12, 2.12, 2.16 (16 CPUs)  |  Memory: 9876/15586 MiB (63.4%)
+CPU%:    8.9/usr  0.0/ni  1.3/sys  0.0/wa  89.6/id
+MySQL:   3.3% CPU  (45 threads)  |  Apache procs: 0
+Apache:  85.2 req/s  |  Busy=12 Idle=8  |  Uptime: 7 days 3 hours 20 minutes
+------------------------------------------------------------------------------------------------
+RANK  HITS   VHOST                        TOP_URI (HITS)                         TOP_IP
+----- ------ ---------------------------- -------------------------------------- ---------------
+1     2      alpha.com                    POST /xmlrpc.php (2)                   198.51.100.10
+2     1      beta.org                     GET /wp-cron.php (1)                   203.0.113.55
+```
+
+---
+
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
